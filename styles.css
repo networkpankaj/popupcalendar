@@ -1,0 +1,18 @@
+.calendar {
+    display: none; /* Initially hide the calendars */
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1000;
+}
+
+#calendar1 {
+    top: 50px; /* Positioning can be adjusted as needed */
+    left: 20px;
+}
+
+#calendar2 {
+    top: 50px; /* Positioning can be adjusted as needed */
+    left: 150px;
+}
